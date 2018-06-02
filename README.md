@@ -20,4 +20,6 @@ Preservation is the process of creating a chain of custody for every piece of di
 * Normal Nootebooks
 * TCMax (<https://www.ekprotrack.com/evidence-chain-of-custody-inventory-software.html>)
 
-Some of these software tools are highly recognized and highly used for document creation in a daily base, while other may not be so common. _TCMax_ is an example of a not so common tool that provides 
+Some of these software tools are highly recognized and highly used for document creation in a daily base, while other may not be so common. _TCMax_ is an example of a not so common tool that provides full chain of custody features and also provides inventory and evidence tracking. It is important to have backups of the chain of custody in case of the destruction of the original.
+
+## Analysis
