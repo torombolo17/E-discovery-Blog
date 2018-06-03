@@ -13,7 +13,7 @@ Acquisition is the process of collecting and creating a forensically sound copy 
 Bear in mind that when we are working with acquisition on digital evidence we may use software tools or hardware tools. The hardware tools used are usually write blockers. Write blockers prevent that when the expert is making a copy of the device with the evidence wrirtes on it by accident. _Logicube_ and _Wibetech_ are hardware tools that provide a write block function. _FTK_, and _EnCase_ are tools that have multiple uses. Tools like these will be mentiones later on, since thet not only serve as acquisition tools, but they also have functions like verification, search, reporting, etc.
 
 ## Preservation
-Preservation is the process of creating a chain of custody for every piece of digital evidence. The chain of custody is a document stating when, who, and how data was handled since before the evidence is collected until the evidence is returned to the owner or destroyed.If the chain of custody is broken, the validity of the evidence can be questioned. The chain of custody should also include detailed notes on how the evidence was handled. Although the chain of custody could be kept on a piece of paper there are tools that help organize the events in a better way.
+Preservation is the process of creating a chain of custody for every piece of digital evidence. The chain of custody is a document stating when, who, and how data was handled since before the evidence is collected until the evidence is returned to the owner or destroyed.If the chain of custody is broken, the validity of the evidence can be questioned. The chain of custody should also include detailed notes on how the evidence was handled. Although the chain of custody could be kept on a piece of paper there are tools that help organize the events in a better way. Some of these tools are
 * Microsoft Office (<https://products.office.com/es-mx/home>)
 * Google Documents (<https://www.google.com/docs/about/>)
 * Apple Pages (<https://www.apple.com/lae/pages/>)
@@ -24,3 +24,12 @@ Some of these software tools are highly recognized and highly used for document 
 
 ## Analysis
 Analysis is the process of finding the evidentiary items from the digital evidence acquired. The analysis of every case will be different and will involve the usage of different tools. When a digital forensics expert performs an examination he/she should document step by step their analysis. This documentation, that is part of the chain of custody, must be able to lead any other forensic expert to the same result. There are many good tools that won't be discussed in this article, but two of the most popular are EnCase and Forensic Toolkit (FTK).
+
+## Presentation
+The last step in the forensic analysis of electronic evidence is the presentation. In this step the examiner reports their background and experience, the tools used for the examination, the methods used to verify the data and statement of what he/she found. Actual data recovered that supports the statement of the findings should be presented as well. There are varios ways of presenting all of this information, but some of the most commons are:
+* Microsoft Power Point 
+* Apple keynote (<https://www.apple.com/lae/keynote/>)
+* EnCase
+* Forensic Toolkit
+
+There are more tools out there that can work just as well as the ones mentioned here, but these are the most common. There are also tools that are specific to one sub-discipline of digital evidence, like mobile acquisition software. The  type of digital evidence involved in a cas will determine the type of tools needed to acquire, preserve, analyze and present the evidence. 
