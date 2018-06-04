@@ -20,10 +20,54 @@ Preservation is the process of creating a chain of custody for every piece of di
 * Paper and Pen (the traditional way)
 * TCMax (<https://www.ekprotrack.com/evidence-chain-of-custody-inventory-software.html>)
 
-Some of these software tools are highly recognized and highly used for document creation in a daily base, while other may not be so common. _TCMax_ is an example of a not so common tool that provides full chain of custody features and also provides inventory and evidence tracking. It is important to have backups of the chain of custody in case of the destruction of the original.
+Some of these software tools are highly recognized and highly used for document creation in a daily base, while other may not be so common. _TCMax_ is an example of a not so common tool that provides full chain of custody features and also provides inventory and evidence tracking. For preservation and chain of custody purposes, any software ot tool that let's the user type notes and store them somewhere will work, but it is important to have backups of the chain of custody in case of the destruction of the original.
 
 ## Analysis
 Analysis is the process of finding the evidentiary items from the digital evidence acquired. The analysis of every case will be different and will involve the usage of different tools. When a digital forensics expert performs an examination he/she should document step by step their analysis. This documentation, that is part of the chain of custody, must be able to lead any other forensic expert to the same result. There are many good tools that won't be discussed in this article, but two of the most popular are EnCase and Forensic Toolkit (FTK).
+
+EnCase and FTK are very similar in functionality. They are both multipurpose tools that provide functionality to make acquisition, analysis, keyword searches, imaging capabilities, and many more. When it comes to the comparison of both users usually go with what they are more comfortable with. As in performance they both have some advantages and disadvantages. FTK creates a keyword index of the entire image at the start of the process, this makes it more slow to start, but way more efficient when searching for key words after the initial setup of the image has been completed. Although FTK is better when performing keyword searches, EnCase excels at examining complex structures since it breaks a file structures for examination. This can be very helpful when performing analysis. Both tools are great and comparing them to determine which one is better is very difficult. I wouln't say one is better that the other. They both have outstanding functionality and the best way to determine which one to use is to try them both and find out by yourself.
+
+To give a little more information about the functionalities of both tools I'll use as reference the information provided by _Forensic Labs_ on Medium (<https://medium.com/@cloudyforensics/encase-vs-ftk-vs-x-ways-review-2b7b075333ef>).
+
+**Forensic ToolKit**
+* Apple DMG and DD_DMG disk image support
+* JSON file support
+* Support for 700 image, archive and file types
+* Notes NSF, Outlook PST/OST, Exchange EDB, Outlook Express DBX, Eudora, EML (Microsoft Internet Mail, Earthlink, Thunderbird, Quickmail, etc.), Netscape, AOL and RFC 833
+* Process and analyze DMG (compressed and uncompressed), Ext4, exFAT, VxFS (Veritas File System), Microsoft VHD (Microsoft Virtual Hard Disk), Blackberry IPD backup files, Android YAFFS / YAFFS 2
+* Derypt Credant, SafeBoot, Utimaco, SafeGuard Enterprise and Easy, EFS, PGP, GuardianEdge, Pointsec and S/MIME.
+* View E-Mail Details Graphically
+* Explicit Image detection
+* Generate Reports in CSV, HTML, PDF, XML, RTF
+
+**EnCase**
+* Acquisition Restart
+* Logical Evidence Files
+* Acquire Evidence via Bootdisk
+* Acquire volatile memory
+* EnScript Scripting
+* Filters and Conditions
+* Active Directory Information Extractor
+* Hardware Analysis
+* Recover partitions
+* Recover deleted files/folders
+* Windows event log parser
+* Link file parser
+* File Signature analysis
+* Hash analysis
+* File finder
+* Built-in Registry Viewer
+* External File Viewers
+* Gallery View
+* Calendar viewer
+* Unicode index search
+* Binary search
+* Proximity Search
+* Internet and email search
+* Case Sensitive
+* Listing of all files and folders
+* List all URLs
+* Acquisition and Hard Drive details
 
 ## Presentation
 The last step in the forensic analysis of electronic evidence is the presentation. In this step the examiner reports their background and experience, the tools used for the examination, the methods used to verify the data and statement of what he/she found. Actual data recovered that supports the statement of the findings should be presented as well. There are varios ways of presenting all of this information, but some of the most commons are:
